@@ -91,6 +91,10 @@ def main():
     S = math.pi / 4 
     print(f"Теоретична площа квадранта кола: {S}")
 
+    # порівняння результатів обчисленя:
+    res = ((result-average_area)/result)*100
+    print("Різниця в результатах обчислення = ", res, "%")
+
 if __name__ == "__main__":
     main()
 
